@@ -3,7 +3,7 @@
       body {
         font-family: 'Indie Flower', cursive;
         font-size:95%;
-        background:rgb(216, 248, 167);
+        background: white;
         color: black;
       }
       .content {
@@ -26,21 +26,23 @@
            margin-right: auto;
        }   
       .cards {
-          background-color:whitesmoke;
+          font-size: 90%;
+          background-color:rgb(250, 248, 244);
           box-shadow: 8px 8px black;
           font-family: Arial, Helvetica, sans-serif; 
-          border: solid lightblue 5px;
+          border: solid black 5px;
           border-radius: 30px;
-          padding: 5px 5px;
+          padding: 0px 0px;
           margin-left: 150px;
           margin-top: 100px;
-          height: 600px;
+          height: 550px;
           width: 240px;
       }
             
       .available {
           background-color: grey;
           color: yellow;
+          width: 240px;
       }
       footer {
           font-size: 70%;
